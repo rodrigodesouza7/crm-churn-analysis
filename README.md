@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="imagens/grafico_churn_geral.png" width="600">
-</p>
 
 # 📊 Análise de Churn e Engajamento em Plataforma SaaS (CRM B2B)
 
