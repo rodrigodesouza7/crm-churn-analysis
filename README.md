@@ -81,7 +81,7 @@ O teste de Mann–Whitney U foi aplicado para comparar a satisfação entre clie
 
 ## 👤 Autor
 
-**Seu Nome Aqui**  
+Rodrigo de Souza 
 Analista de Dados | Data-Driven | Foco em Negócios SaaS  
-[LinkedIn](https://www.linkedin.com) • [GitHub](https://github.com)
+[LinkedIn] www.linkedin.com/in/rodrigodesouzasilva • [GitHub] https://github.com/rodrigodesouza7
 
