@@ -1,0 +1,12 @@
+estrutura_content = """projeto-churn-saas/
+├── crm_churn_dataset.csv
+├── Análise_de_Churn_e_Engajamento_de_Clientes_em_uma_Plataforma_SaaS_de_CRM_B2B.ipynb
+├── imagens/
+│   ├── grafico_churn_geral.png
+│   ├── grafico_churn_por_plano.png
+│   ├── grafico_churn_por_empresa.png
+│   ├── grafico_boxplot_satisfacao.png
+│   ├── grafico_heatmap_correlacao.png
+│   ├── grafico_churn_temporal.png
+│   ├── grafico_tempo_cliente_boxswarm.png
+"""
