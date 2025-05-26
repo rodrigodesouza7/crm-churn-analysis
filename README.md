@@ -2,8 +2,6 @@
 
 Este projeto analisa o comportamento de cancelamento de clientes (churn) em uma plataforma SaaS B2B de CRM. Com base em dados reais simulados, foram extraídos insights sobre engajamento, satisfação e padrões de evasão, por meio de análise exploratória e visualizações orientadas ao negócio.
 
-# 📊 Análise de Churn e Engajamento em Plataforma SaaS (CRM B2B)
-
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)]()
 
