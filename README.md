@@ -1,72 +1,75 @@
+# 📊 Análise de Churn e Engajamento em Plataforma SaaS (CRM B2B)
+
+Este projeto analisa o comportamento de cancelamento de clientes (churn) em uma plataforma SaaS B2B de CRM. Com base em dados reais simulados, foram extraídos insights sobre engajamento, satisfação e padrões de evasão, por meio de análise exploratória e visualizações orientadas ao negócio.
 
 # 📊 Análise de Churn e Engajamento em Plataforma SaaS (CRM B2B)
 
-Este projeto tem como objetivo analisar o comportamento de cancelamento de clientes (churn) em uma plataforma SaaS B2B de CRM. Através de técnicas de análise de dados e visualização, foram extraídos insights valiosos que ajudam a entender os fatores que influenciam a evasão de clientes.
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)]()
 
 ---
 
 ## 🎯 Objetivo
 
-> Identificar padrões e variáveis associadas ao churn de clientes, com base em dados comportamentais e demográficos, para orientar ações de retenção.
+Identificar padrões e variáveis associadas ao churn de clientes, com base em dados comportamentais e demográficos, para orientar ações estratégicas de retenção.
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
 - Python 3.10+
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scipy
-- Google Colab
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scipy (testes estatísticos)
+- Google Colab (ambiente)
 
 ---
 
 ## 🧪 Metodologia
 
-- Leitura e tratamento de dados
+- Leitura e limpeza dos dados
 - Análise exploratória (EDA)
-- Criação de variáveis (feature engineering)
-- Testes estatísticos de hipóteses (Mann–Whitney U)
-- Visualizações profissionais com Seaborn
+- Feature engineering
+- Testes estatísticos (Mann–Whitney U)
+- Visualizações com Seaborn
 - Exportação de gráficos em alta resolução
 
 ---
 
 ## 📊 Principais Descobertas
 
-- **Churn geral:** 44,9% dos clientes cancelaram.
-- **Plano Free:** teve o maior volume proporcional de churn.
-- **Empresas pequenas:** concentram mais cancelamentos.
-- **Satisfação:** clientes com nota média ~3.1 cancelam mais; ativos ~3.8.
-- **Tempo sem login:** quanto maior, maior a chance de churn.
-- **Tempo como cliente:** levemente menor em clientes que cancelaram.
-- **Linha do tempo:** churn flutua mês a mês, com picos pontuais.
+- **Churn geral:** 44,9% dos clientes cancelaram
+- **Plano Free:** maior taxa proporcional de cancelamento
+- **Empresas Pequenas:** concentram maior evasão
+- **Satisfação:** cancelados têm média ~3.1 | ativos ~3.8
+- **Login e Engajamento:** inatividade impacta fortemente
+- **Tempo como cliente:** levemente menor nos que cancelaram
+- **Sazonalidade:** churn flutua mês a mês com picos identificáveis
 
 ---
 
 ## 🧠 Testes Estatísticos
 
-O teste de Mann–Whitney U foi aplicado para comparar a satisfação entre clientes ativos e cancelados. O resultado mostrou diferença estatisticamente significativa (**p < 0.05**), validando que clientes satisfeitos permanecem mais tempo.
+Foi aplicado o teste de **Mann–Whitney U** para comparar a distribuição de satisfação entre clientes ativos e cancelados.  
+➡️ Resultado: **p < 0.05**, confirmando diferença estatisticamente significativa.
 
 ---
 
 ## 💡 Recomendações Estratégicas
 
-1. Criar alertas para inatividade e baixa satisfação.
-2. Reforçar o onboarding para clientes pequenos e do plano Free.
-3. Incentivar upgrades para planos pagos com benefícios claros.
-4. Monitorar sazonalidade do churn para prever picos.
+- Alertas para inatividade e baixa satisfação
+- Reforço no onboarding de clientes Free e pequenos
+- Estratégia de upsell para planos pagos com valor agregado
+- Monitoramento temporal para prever sazonalidade de churn
 
 ---
 
-## 📁 Estrutura
+## 📁 Estrutura do Projeto
 
-```
-📦 projeto-churn-saas
+```text
+projeto-churn-saas/
 ├── crm_churn_dataset.csv
-├── notebook_projeto.ipynb
+├── Análise_de_Churn_e_Engajamento_de_Clientes_em_uma_Plataforma_SaaS_de_CRM_B2B.ipynb
 ├── imagens/
 │   ├── grafico_churn_geral.png
 │   ├── grafico_churn_por_plano.png
@@ -75,13 +78,22 @@ O teste de Mann–Whitney U foi aplicado para comparar a satisfação entre clie
 │   ├── grafico_heatmap_correlacao.png
 │   ├── grafico_churn_temporal.png
 │   ├── grafico_tempo_cliente_boxswarm.png
-```
+
+👤 Sobre o Autor
+Rodrigo de Souza Silva
+
+**Rodrigo de Souza Silva**  
+Profissional de Tecnologia da Informação com formação em Sistemas de Informação e pós-graduação em Data Science & Machine Learning. Atua no desenvolvimento de projetos práticos com Python, APIs REST, automações e análise de dados, aplicando os conhecimentos adquiridos em formação técnica e cursos especializados.
+
+Apaixonado por dados, boas práticas de código e soluções que unem lógica, organização e utilidade real.
+
+- [LinkedIn](https://www.linkedin.com/in/rodrigodesouzasilva)  
+- [GitHub](https://github.com/rodrigodesouza7)
 
 ---
 
-## 👤 Autor
+## 📄 Licença
 
-Rodrigo de Souza 
-Analista de Dados | Data-Driven | Foco em Negócios SaaS  
-[LinkedIn] www.linkedin.com/in/rodrigodesouzasilva • [GitHub] https://github.com/rodrigodesouza7
+Este projeto está licenciado sob os termos da licença [MIT](https://opensource.org/licenses/MIT).  
+Você pode usar, modificar e distribuir com os devidos créditos ao autor.
 
